@@ -1,0 +1,1 @@
+# School Clinic Management System

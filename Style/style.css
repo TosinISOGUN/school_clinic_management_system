@@ -1,0 +1,139 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+h2 {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    text-align: center;
+}
+.oaustech_logo {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+
+  
+    height: 100vh;
+    display: flex;
+
+}
+
+.left {
+    background-color: #223f4a;
+    width: 15%;
+    height: 100%;
+    padding: 15px;
+    
+}
+
+.navbar {
+    text-align: left;
+    padding-top: 30px;
+}
+.top_navbar{
+    background-color: #96231c;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 5%;
+    list-style: none;
+    text-decoration: none;
+   
+}
+.top_navbar li{
+    padding: 5px;
+    
+}
+.top_navbar li a{
+    color: white;
+}
+
+.navbar li:hover {
+    background-color: #57787d;
+    border-left: 5px solid white;
+    border-bottom: none;
+}
+
+.navbar li {
+    padding: 10px;
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar a {
+    text-decoration: none;
+
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+.right {
+    width: 85%;
+
+}
+
+.right .right_container .title {
+
+    max-width: 50%;
+    text-align: center;
+    color: #96231c;
+}
+
+.right .right_container {
+    padding-top: 15%;
+    padding-left: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    background-color: #f1f3f6;
+}
+
+.right_container .btn_link {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.login_btn {
+    
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #57787d;
+    border-radius: 5px;
+
+}
+span{
+    color: black;
+}
+.login_btn:hover {
+    background-color: #57787d;
+    border: none;
+    color: white;
+
+}
+
+.login_btn:hover {
+    cursor: pointer;
+}

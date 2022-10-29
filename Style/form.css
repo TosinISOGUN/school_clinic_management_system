@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Quicksand";
+    margin: 0;
+
+}
+
+.form {
+    /* border: 1px solid black; */
+
+    padding: 20px;
+    box-shadow: 0 0 3px 1px;
+
+}
+
+.form .btn {
+    margin-top: 20px;
+}
+
+.form .btn .btn_doctor {
+    padding: 5px;
+}
+
+.form .btn .btn_patient {
+    padding: 5px;
+}
+
+.input_fields {
+    margin-top: 20px;
+}
+
+.input_fields input {
+    width: 300px;
+    height: 30px;
+}
+
+.right .right_form {
+
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95%;
+    background-color: #f1f3f6;
+}
+
+.error {
+
+    width: 100%;
+    background-color: pink;
+    color: red;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+
+
+}
+
+.success {
+    height: 5%;
+    width: 100%;
+    background-color: lightgreen;
+    color: green;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.form_grid {
+
+    display: grid;
+    grid-template-columns: 350px 300px;
+}
